@@ -6,3 +6,7 @@ Basic codes for train a feed forward neural network with sinthetic data. After t
 
 minimal.py contains the functions used in the main code
 
+mn_git.ipynb is the main file where the NN is defined, trained and evaluated on Montecarlo data.
+
+ 
+
