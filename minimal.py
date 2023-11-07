@@ -255,7 +255,9 @@ def get_autoencoder(L,encoding_dim=5):
 
 
 
-    autoencoder.compile(optimizer='adam', loss='binary_crossentropy')
+    #autoencoder.compile(optimizer='adam', loss='binary_crossentropy')
+    autoencoder.compile(optimizer='adam', loss=losses.MeanSquaredError())
+
 
     return autoencoder, encoder, decoder
 
